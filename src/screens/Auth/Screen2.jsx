@@ -8,7 +8,7 @@ export default function Screen2({ navigation }) {
   return (
     <>
       <ScrollView>
-      <StatusBar backgroundColor = "#022677"/>
+      <StatusBar backgroundColor = "#022677"  barStyle="light-content"/>
         <View style={{ backgroundColor: "#022677", padding: 20, paddingTop:60 }}>
           <View style={{ alignItems: "center" }}>
             <Image style={styles.image_janus} source={require('../../../assets/janus.png')} />
